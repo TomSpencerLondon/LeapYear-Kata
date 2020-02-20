@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25adfa4a-eaa8-4041-97c4-6d64c9cbdab9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeapYear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LeapYearShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeapYearShould.java" afterDir="false" />
@@ -31,6 +30,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -87,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582211993088</updated>
-      <workItem from="1582211997754" duration="1556000" />
+      <workItem from="1582211997754" duration="2363000" />
     </task>
     <servers />
   </component>

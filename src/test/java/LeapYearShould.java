@@ -22,4 +22,14 @@ public class LeapYearShould {
     public void returnsFalseIfYearNotDivisibleByFour(){
         assertEquals(false, leapYear.isLeapYear(2019));
     }
+
+    @Test
+    public void returnsFalseIfYearIsCenturyYearNotDivisibleBy400(){
+        assertEquals(false, leapYear.isLeapYear(1900));
+    }
+
+    @Test
+    public void returnsTrueIfYearIsCenturyYearDivisibleBy400(){
+        assertEquals(true, leapYear.isLeapYear(2020));
+    }
 }
