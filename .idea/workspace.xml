@@ -4,8 +4,6 @@
     <list default="true" id="25adfa4a-eaa8-4041-97c4-6d64c9cbdab9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeapYear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LeapYearShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeapYearShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LeapYearShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LeapYearShould.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582211993088</updated>
-      <workItem from="1582211997754" duration="2363000" />
+      <workItem from="1582211997754" duration="2720000" />
     </task>
     <servers />
   </component>

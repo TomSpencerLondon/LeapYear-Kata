@@ -3,10 +3,14 @@ public class LeapYear {
         if(year % 100 == 0 && year % 400 != 0){
             return false;
         }
-        
-        if(year % 4 == 0){
+
+        if(isDivisibleByFour(year)){
             return true;
         }
         return false;
+    }
+
+    private boolean isDivisibleByFour(int year){
+        return year % 4 == 0;
     }
 }
