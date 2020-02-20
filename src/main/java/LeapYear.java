@@ -1,6 +1,7 @@
 public class LeapYear {
     public boolean isLeapYear(int year){
-        if(year % 100 == 0 && year % 400 != 0){
+
+        if(year % 100 == 0 && !isDivisibleByFourHundred(year)){
             return false;
         }
 
@@ -12,5 +13,9 @@ public class LeapYear {
 
     private boolean isDivisibleByFour(int year){
         return year % 4 == 0;
+    }
+
+    private boolean isDivisibleByFourHundred(int year){
+        return year % 400 == 0;
     }
 }
