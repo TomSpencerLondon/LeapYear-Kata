@@ -1,11 +1,6 @@
 public class LeapYear {
     public boolean isLeapYear(int year){
-
-        if(isNotGregorianLeapYear(year) || !isDivisibleByFour(year)){
-            return false;
-        }
-
-        return true;
+        return !(isNotGregorianLeapYear(year) || !isDivisibleByFour(year));
     }
 
     private boolean isNotGregorianLeapYear(int year){
