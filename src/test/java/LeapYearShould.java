@@ -14,8 +14,12 @@ public class LeapYearShould {
     }
 
     @Test
-    public void returnsFalseIfYearNotDivisibleByFour(){
+    public void returnsTrueIfYearDivisibleByFour(){
+        assertEquals(true, leapYear.isLeapYear(2020));
+    }
 
-        assertEquals(false, leapYear.isLeapYear(2020));
+    @Test
+    public void returnsFalseIfYearNotDivisibleByFour(){
+        assertEquals(false, leapYear.isLeapYear(2019));
     }
 }
